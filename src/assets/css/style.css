@@ -1,6 +1,7 @@
 body {
 
     background-color: red;
+    font-family: monospace;
 }
 
 
@@ -11,7 +12,7 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    height: 400px;
+
 
     
 }
@@ -32,7 +33,7 @@ button {
     color: white;
     border-radius: 10px;
     font-size: 36px;
-    font-family: monospace;
+
     font-weight: 400;
     padding: 20px;
     background-color: inherit;
@@ -48,6 +49,7 @@ button {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     width: 600px;
+    padding: 5px;
 } 
 
 .busqueda {
@@ -56,12 +58,101 @@ button {
     flex-direction: column;
     height: 180px;
     justify-content: space-around;
+    align-items: center;
+
 
 }
 
 #buscar {
 
-    
-
+    height: 60px;
+    border-radius: 20px;
+    border: inherit;
+    width: 564px;
+    font-size: 30px;
+    color: gray;
+    padding: 14px;
+    margin: 10px;
 
 }
+
+.datos div {
+    padding: 10px;
+}
+
+.nombre {
+ font-size: 22px;
+ color:white;
+}
+
+.lugar, .fecha {
+
+    font-size: 19px;
+    color: #ffd4d4;
+
+}
+
+.vermas {
+
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+    color: red;
+    display: inline;
+    float: right;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+i {
+    padding-right: 24px;
+
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.etiqueta {
+    font-weight: 600;
+}
+
+.valor {
+    padding-left:20px; 
+}
+
+.persona {
+
+    background-color: #ffffff42;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+#boton-ufteencontre, #boton-reportar  {
+    margin-top: 20px;
+}
+
+.campo input {
+    border: inherit;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+h1 {
+
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+
