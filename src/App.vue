@@ -5,6 +5,14 @@
   </div>
 </template>
 
+<template>
+ <button class="boton" id="boton-1">
+  Estoy bien
+ </button>
+
+</template>
+
+
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
